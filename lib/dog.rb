@@ -1,6 +1,12 @@
 class Dog
-def name=()
-  
+def name=(str)
+  @dog_name = str
+end
+
+def name
+  @dog_name
+  end
+
 end
 
 end
